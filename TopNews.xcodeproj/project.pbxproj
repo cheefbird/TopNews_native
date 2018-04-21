@@ -91,9 +91,8 @@
 			children = (
 				061447F0208AA2E4000E7D8A /* AppDelegate.swift */,
 				061447F2208AA2E4000E7D8A /* ViewController.swift */,
-				061447F4208AA2E4000E7D8A /* Main.storyboard */,
-				061447F7208AA2E6000E7D8A /* Assets.xcassets */,
-				061447F9208AA2E6000E7D8A /* LaunchScreen.storyboard */,
+				06E499B3208AC08D004B3393 /* Storyboards */,
+				06E499B4208AC099004B3393 /* Assets */,
 				061447FC208AA2E6000E7D8A /* Info.plist */,
 			);
 			path = TopNews;
@@ -106,6 +105,23 @@
 				06144807208AA2E6000E7D8A /* Info.plist */,
 			);
 			path = TopNewsTests;
+			sourceTree = "<group>";
+		};
+		06E499B3208AC08D004B3393 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				061447F4208AA2E4000E7D8A /* Main.storyboard */,
+				061447F9208AA2E6000E7D8A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		06E499B4208AC099004B3393 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				061447F7208AA2E6000E7D8A /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		7C74F1914DD5E6DFCAE1AAC3 /* Pods */ = {
@@ -458,7 +474,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				INFOPLIST_FILE = TopNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.TopNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -474,7 +493,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				INFOPLIST_FILE = TopNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.TopNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -491,7 +513,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				INFOPLIST_FILE = TopNewsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.TopNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -509,7 +535,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				INFOPLIST_FILE = TopNewsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.TopNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
